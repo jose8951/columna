@@ -1,0 +1,19 @@
+#contenedor{
+    display: table;
+    border:  1px solid red;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+#contenidos{
+    display: table-row;
+}
+
+#columna1,#columna2,#columna3,#columna4{
+    display: table-cell;
+    border: 1px solid red;
+    vertical-align: middle;
+    padding: 10px;
+}
